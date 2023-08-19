@@ -17,7 +17,7 @@ class test {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("asd"))
+                .body("data", equalTo("a"))
         ;
     }
 }
